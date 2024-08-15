@@ -10,5 +10,6 @@
     - Remove type checks in Reader/Writer on production
     - Clean up petal calculations, use strict null/undefined where needed
     - Fix double-tick / 0 distance collisions
- - Checkpoints
- - Remove Bubble's damage, make the health 1 always
+- Checkpoints
+- Remove Bubble's damage, make the health 1 always
+- Migrate the Discord Bot repo to this org
