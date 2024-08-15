@@ -1,0 +1,14 @@
+# Current TODO as of 08/15/2024 (3:30)
+- Implement a better routing server using Bun
+- Implement a Bun runtime for the game instance to run on servers
+- Implement "direct connection" for those server instances to eliminate a packet trip
+- Better lazy loading and smaller output file sizes
+- "Last Good Position" system to fix wall glitches
+    - Ray tracing to stop people from bubbling through
+- Optimizations
+    - Segmented mobs don't collide with themselves
+    - Remove type checks in Reader/Writer on production
+    - Clean up petal calculations, use strict null/undefined where needed
+    - Fix double-tick / 0 distance collisions
+ - Checkpoints
+ - Remove Bubble's damage, make the health 1 always
