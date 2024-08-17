@@ -1,5 +1,6 @@
-# Current TODO as of 08/15/2024 (3:30)
-- Implement a better routing server using Bun
+# General TODO
+- Implement a better routing server using Bun ✔️
+    - Implement basic analytics (region, user count, platform/browser hardware, visit time)
 - Implement a Bun runtime for the game instance to run on servers
 - Implement "direct connection" for those server instances to eliminate a packet trip
 - Better lazy loading and smaller output file sizes
