@@ -14,3 +14,4 @@
 - Checkpoints
 - Remove Bubble's damage, make the health 1 always
 - Migrate the Discord Bot repo to this org
+- **Fix** the zero reload NaN bug with petal ratios
