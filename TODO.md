@@ -1,17 +1,17 @@
 # General TODO
 - Implement a better routing server using Bun ✔️
-    - Implement basic analytics (region, user count, platform/browser hardware, visit time)
-- Implement a Bun runtime for the game instance to run on servers
-- Implement "direct connection" for those server instances to eliminate a packet trip
-- Better lazy loading and smaller output file sizes
+    - Implement basic analytics (region, user count, platform/browser hardware, visit time) ✔️
+- Implement a Bun runtime for the game instance to run on servers ✔️
+- Implement "direct connection" for those server instances to eliminate a packet trip ✔️
+- Better lazy loading and smaller output file sizes ✔️
 - "Last Good Position" system to fix wall glitches
     - Ray tracing to stop people from bubbling through
 - Optimizations
-    - Segmented mobs don't collide with themselves
-    - Remove type checks in Reader/Writer on production
+    - Segmented mobs don't collide with themselves ✔️
+    - Remove type checks in Reader/Writer on production ✔️
     - Clean up petal calculations, use strict null/undefined where needed
     - Fix double-tick / 0 distance collisions
 - Checkpoints
 - Remove Bubble's damage, make the health 1 always
-- Migrate the Discord Bot repo to this org
-- **Fix** the zero reload NaN bug with petal ratios
+- Migrate the Discord Bot repo to this org ✔️
+- **Fix** the zero reload NaN bug with petal ratios ✔️
